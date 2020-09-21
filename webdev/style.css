@@ -1,0 +1,108 @@
+input, button {
+  font-family: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1600px;
+}
+
+.wrapper {
+  background: url('../img/bg-image.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 744px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font: normal normal 14px/140% 'Roboto', sans-serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  margin: 25px 0 105px 0;
+}
+
+.menu__about {
+  border-bottom: 1px solid #fff;
+  font: normal 500 14px/140% 'Roboto', sans-serif;
+}
+
+.menu__about:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.menu__syllabus:hover,
+.menu__projects:hover,
+.menu__faq:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  text-decoration: underline;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title__webdev {
+  color: #fff;
+  font: normal bold 64px 'Roboto', sans-serif;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+
+.title__text {
+  color: #fff;
+  font: normal normal 18px/140% 'Roboto', sans-serif;
+  margin-bottom: 28px;
+}
+
+.btn__start {
+  background: #00AFDB;
+  color: #fff;
+  font: normal 500 14px 'Roboto', sans-serif;
+  text-transform: uppercase;
+  padding: 15px 47px;
+  border: none;
+  margin-bottom: 182px;
+  cursor: pointer;
+}
+
+.btn__start:hover {
+  background: #22758a;
+}
+
+.social {
+  display: flex;
+  margin: 0 auto;
+  width: 200px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social__mail:hover,
+.social__facebook:hover,
+.social__instagram:hover,
+.social__youtube:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
