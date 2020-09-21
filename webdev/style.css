@@ -340,3 +340,97 @@ a {
 .sub-form__btn:hover {
   background: #22758a;
 }
+
+.app {
+  background: #F5F6F7;
+  min-height: 468px;
+  display: flex;
+  justify-content: center;
+}
+
+.download {
+  display: flex;
+  width: 492px;
+  height: 168px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.download__app {
+  font: normal bold 24px 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+}
+
+.download__text {
+  color: #4E4E4E;
+  font: normal normal 14px/140% 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  width: 435px;
+  justify-content: space-around;
+}
+
+.button-apple {
+  display: flex;
+}
+
+.btn__apple {
+  background: #00AFDB;
+  color: #fff;
+  font: normal bold 14px 'Roboto', sans-serif;
+  text-transform: uppercase;
+  border: none;
+  width: 128px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.btn__apple:hover {
+  background: #009CC2;
+}
+
+.apple {
+  background: #009CC2;
+  width: 60px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-android {
+  display: flex;
+}
+
+.btn__android {
+  background: #00AFDB;
+  color: #fff;
+  font: normal bold 14px 'Roboto', sans-serif;
+  text-transform: uppercase;
+  border: none;
+  width: 128px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.btn__android:hover {
+  background: #009CC2;
+}
+
+.android {
+  background: #009CC2;
+  width: 60px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.android:hover {
+  background: #22758a;
+}
