@@ -434,3 +434,49 @@ a {
 .android:hover {
   background: #22758a;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 184px;
+  background-color: #000;
+}
+
+.ftr {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav {
+  display: flex;
+  width: 236px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav__credits,
+.footer-nav__privacy,
+.footer-nav__teams {
+  font: normal normal 14px/140% 'Roboto', sans-serif;
+}
+
+.footer-nav__credits:hover,
+.footer-nav__privacy:hover,
+.footer-nav__teams:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  text-decoration: underline;
+}
+
+.footer-nav__logo {
+  margin: 0 70px 20px 0;
+}
+
+.footer-nav__dev {
+  color: #818181;
+  font: normal normal 14px/140% 'Roboto', sans-serif;
+}
