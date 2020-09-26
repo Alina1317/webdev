@@ -31,7 +31,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 600px;
+  width: 596px;
   margin: 25px 0 105px 0;
 }
 
@@ -46,13 +46,22 @@ a {
   transform: scale(1.2);
 }
 
+.menu__syllabus,
+.menu__faq {
+  margin-right: 15px;
+}
+
+.menu__logo {
+  margin-right: 17px;
+}
+
 .menu__syllabus:hover,
 .menu__projects:hover,
 .menu__faq:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
-  text-decoration: underline;
+  border-bottom: 1px solid #fff;
 }
 
 .title {
@@ -67,12 +76,14 @@ a {
   letter-spacing: 4.5px;
   text-transform: uppercase;
   margin-bottom: 23px;
+  margin-left: 3px;
 }
 
 .title__text {
   color: #fff;
   font: normal normal 18px/140% 'Roboto', sans-serif;
   margin-bottom: 28px;
+  text-align: center;
 }
 
 .btn__start {
@@ -80,7 +91,7 @@ a {
   color: #fff;
   font: normal 500 14px 'Roboto', sans-serif;
   text-transform: uppercase;
-  padding: 15px 47px;
+  padding: 15px 48px;
   border: none;
   margin-bottom: 182px;
   cursor: pointer;
@@ -117,8 +128,9 @@ a {
 .represent {
   display: flex;
   flex-wrap: wrap;
-  width: 390px;
+  width: 407px;
   height: 255px;
+  margin-left: 18px;
 }
 
 .represent__idea {
@@ -130,7 +142,8 @@ a {
 
 .represent__tasks {
   font: normal normal 14px/140% 'Roboto', sans-serif;
-  color: #373737
+  color: #373737;
+  margin-bottom: 10px;
 }
 
 .btn__started {
@@ -149,8 +162,10 @@ a {
 }
 
 .wrap__foto {
-  margin-top: -20px;
+  margin-top: -21px;
+  margin-right: 19px;
 }
+
 .wrapping {
   background: #F5F6F7;
   display: flex;
@@ -165,11 +180,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-bottom: 23px;
+  margin-bottom: 20px;
 }
 
 .nav-items__vector {
-  padding-right: 12px;
+  padding-right: 14px;
 }
 
 .nav-items__vector:hover,
@@ -187,7 +202,7 @@ a {
 }
 
 .nav-items__five {
-  padding-right: 15px;
+  padding-right: 17px;
 }
 
 .nav-items__link {
@@ -210,19 +225,28 @@ a {
   justify-content: space-around;
   align-items: center;
   width: 298px;
-  height: 195px;
+  height: 175px;
   margin-right: 140px;
+  margin-top: 6px;
+}
+
+.community__icon {
+  margin-bottom: 19px;
+  margin-left: 2px;
 }
 
 .community__commuinity {
   font: normal 500 16px/20px 'Roboto', sans-serif;
   letter-spacing: 2.4px;
   text-transform: uppercase;
+  margin-left: 3px;
+  margin-bottom: 11px;
 }
 
 .community__hacker {
   font: normal normal 14px/140% 'Roboto', sans-serif;
   text-align: center;
+  margin-bottom: 4px;
 }
 
 .slider {
@@ -316,17 +340,16 @@ a {
 }
 
 .sub-form__input {
-  width: 340px;
+  width: 336px;
   height: 46px;
   border: none;
   outline: none;
-  padding: 1px 20px;
 }
 
 .sub-form__input::placeholder {
   color: #373737;
+  padding: 1px 22px;
   font: normal normal 14px/140% 'Roboto', sans-serif;
-  
 }
 
 .sub-form__btn {
@@ -369,6 +392,7 @@ a {
   color: #4E4E4E;
   font: normal normal 14px/140% 'Roboto', sans-serif;
   text-align: center;
+  margin-bottom: 9px;
 }
 
 .buttons {
@@ -455,6 +479,7 @@ a {
   width: 236px;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 18px;
 }
 
 .footer-nav__credits,
@@ -466,10 +491,10 @@ a {
 .footer-nav__credits:hover,
 .footer-nav__privacy:hover,
 .footer-nav__teams:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  text-decoration: underline;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  border-bottom: 1px solid #fff;
 }
 
 .footer-nav__logo {
@@ -479,4 +504,5 @@ a {
 .footer-nav__dev {
   color: #818181;
   font: normal normal 14px/140% 'Roboto', sans-serif;
+  margin-bottom: 15px;
 }
